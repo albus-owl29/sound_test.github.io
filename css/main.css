@@ -50,6 +50,23 @@ header h2 {color: #fff; padding: 4vh 0 4vh 1vw;}
 	padding-bottom: 0.5%;
 	margin-left: 0;
 	margin-right: 0;
+	border-radius: 8%;
+	text-align: center;
+	
+}
+
+#blocks h2 {
+
+	border-bottom-style: solid;
+	border-bottom-color: #9651b5;
+	border-bottom-width: 1px;
+	box-shadow: 2px 6px 10px #9a12cc;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+	margin-left: 0;
+	margin-right: 0;
+	border-radius: 8%;
+	text-align: center;
 	
 }
 
@@ -166,11 +183,13 @@ footer p {text-align: left; padding: 2vh 2vh; color: #bdcdd6;}
 	border-style: solid;
 	border-width: 1px;
 	box-shadow: 2px 6px 10px #9a12cc;
+	border-radius: 6%;
 	animation-duration: 1s;
 	animation-name: drop_index;
 	animation-iteration-count: 1;
 	animation-timing-function: ease-out;
 	z-index: -1;
+	overflow: hidden;
 }
 
 .maintenance, .realization {margin: 2% 0 2% 0;}
@@ -238,6 +257,8 @@ footer p {text-align: left; padding: 2vh 2vh; color: #bdcdd6;}
 	border-style: solid;
 	border-width: 1px;
 	box-shadow: 2px 6px 10px #9a12cc;
+	border-radius: 16px;
+	overflow: hidden;
 	float: right;
 	width: 20%;
 	height: 80vh;
@@ -261,6 +282,8 @@ footer p {text-align: left; padding: 2vh 2vh; color: #bdcdd6;}
 	border-style: solid;
 	border-width: 1px;
 	box-shadow: 2px 6px 12px #9a12cc;
+	border-radius: 16px;
+	overflow: hidden;
 	animation-duration: 1s;
 	animation-name: drop_blocks;
 	animation-iteration-count: 0.9s;
@@ -285,6 +308,8 @@ footer p {text-align: left; padding: 2vh 2vh; color: #bdcdd6;}
 	border-style: solid;
 	border-color: #800cab;
 	box-shadow: 2px 6px 10px #9a12cc;
+	border-radius: 16px;
+	overflow: hidden;
 	width: 82%;
 	height: 30%;
 	background-color: white;
@@ -301,6 +326,8 @@ footer p {text-align: left; padding: 2vh 2vh; color: #bdcdd6;}
 	border-style: solid;
 	border-color: #800cab;
 	box-shadow: 2px 6px 10px #9a12cc;
+	border-radius: 4%;
+	overflow: hidden;
 	width: 92%;
 	height: 92.5%;
 	background-color: white;
