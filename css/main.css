@@ -94,7 +94,7 @@ header h2 {color: #fff; padding: 4vh 0 4vh 1vw;}
 	z-index: 1;
 }
 
-.nav a, .dropbtn {
+.nav a {
 
 	display: inline-block;
 	color: #fff;
@@ -110,37 +110,10 @@ header h2 {color: #fff; padding: 4vh 0 4vh 1vw;}
 	z-index: 1;
 }
 
-.dropdown-content {
-
-	display: none;
-	position: absolute;
-	background-color: #c79fef;
-	box-shadow: 2px 6px 10px black;
-	font-weight: bolder;
-	z-index: 1;
-	box-sizing: border-box;
-}
-
-.dropdown-content a {
-
-	color: black;
-	padding: 13px 32px;
-	display: block;
-	text-align: left;
-	border-color: black;
-	border-style: solid;
-	border-width: 1px;
-}
-
 .nav ul {list-style-type: none; overflow: hidden; background-color: #000;}
 .nav li {float: left;}
 .nav li a:hover:not(.active) {background-color: #d90f0f;}
 .nav .active {background-color: #9651b5;}
-li a:hover, .dropdown:hover .dropbtn {background-color: #29ab27;}
-li.dropdown {display: inline-block;}
-.dropdown-content a:hover {background-color: #f1f1f1;}
-.dropdown:hover .dropdown-content {display: block;}
-
 /* End */
 
 
@@ -222,6 +195,8 @@ footer p {text-align: left; padding: 2vh 2vh; color: #bdcdd6;}
 	animation-timing-function: ease-out;
 	z-index: -1;
 }
+
+.article_tree_other h3 {color: #000}
 
 .article {
 
