@@ -3,7 +3,7 @@
 html, body, .container, main {min-height: 100vh; width: auto;}
 .container {width: 100%; height: auto;}
 main p {margin: 0 2% 0 2%; padding-bottom: 2%;}
-main h2 {margin: 0 2% 2% 2%; padding-top: 2%; color: red;}
+main h2 {margin: 0 2% 2% 2%; padding-top: 2%; color: red; border }
 
 body {
 
@@ -35,6 +35,23 @@ header {
 }
 
 header h2 {color: #fff; padding: 4vh 0 4vh 1vw;}
+
+/* End */
+
+/* Testing  */
+
+#elements h2 {
+
+	border-bottom-style: solid;
+	border-bottom-color: #9651b5;
+	border-bottom-width: 1px;
+	box-shadow: 2px 6px 10px #9a12cc;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+	margin-left: 0;
+	margin-right: 0;
+	
+}
 
 /* End */
 
