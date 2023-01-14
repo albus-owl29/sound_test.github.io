@@ -3,7 +3,7 @@
 html, body, .container, main {min-height: 100vh; width: auto;}
 .container {width: 100%; height: auto;}
 main p {margin: 0 2% 0 2%; padding-bottom: 2%;}
-main h2 {margin: 0 2% 2% 2%; padding-top: 2%; color: red; border }
+main h2 {margin: 0 2% 2% 2%; padding-top: 2%;}
 
 body {
 
@@ -50,7 +50,7 @@ header h2 {color: #fff; padding: 4vh 0 4vh 1vw;}
 	padding-bottom: 0.5%;
 	margin-left: 0;
 	margin-right: 0;
-	border-radius: 8%;
+	border-radius: 14px;
 	text-align: center;
 	
 }
@@ -65,7 +65,7 @@ header h2 {color: #fff; padding: 4vh 0 4vh 1vw;}
 	padding-bottom: 0.5%;
 	margin-left: 0;
 	margin-right: 0;
-	border-radius: 8%;
+	border-radius: 14px;
 	text-align: center;
 	
 }
@@ -183,7 +183,7 @@ footer p {text-align: left; padding: 2vh 2vh; color: #bdcdd6;}
 	border-style: solid;
 	border-width: 1px;
 	box-shadow: 2px 6px 10px #9a12cc;
-	border-radius: 6%;
+	border-radius: 12px;
 	animation-duration: 1s;
 	animation-name: drop_index;
 	animation-iteration-count: 1;
@@ -257,7 +257,7 @@ footer p {text-align: left; padding: 2vh 2vh; color: #bdcdd6;}
 	border-style: solid;
 	border-width: 1px;
 	box-shadow: 2px 6px 10px #9a12cc;
-	border-radius: 16px;
+	border-radius: 14px;
 	overflow: hidden;
 	float: right;
 	width: 20%;
@@ -282,7 +282,7 @@ footer p {text-align: left; padding: 2vh 2vh; color: #bdcdd6;}
 	border-style: solid;
 	border-width: 1px;
 	box-shadow: 2px 6px 12px #9a12cc;
-	border-radius: 16px;
+	border-radius: 14px;
 	overflow: hidden;
 	animation-duration: 1s;
 	animation-name: drop_blocks;
@@ -308,7 +308,7 @@ footer p {text-align: left; padding: 2vh 2vh; color: #bdcdd6;}
 	border-style: solid;
 	border-color: #800cab;
 	box-shadow: 2px 6px 10px #9a12cc;
-	border-radius: 16px;
+	border-radius: 14px;
 	overflow: hidden;
 	width: 82%;
 	height: 30%;
@@ -345,6 +345,7 @@ footer p {text-align: left; padding: 2vh 2vh; color: #bdcdd6;}
 #info h3 {padding: 2% 0 0 2%;}
 .links ul, .files_mobile ul {padding: 0 0 0 3%; list-style-type: none;}
 .files ul {padding: 0 0 0 3%; list-style-type: none;}
+.files h3 {padding: 2% 0 0 3%}
 .contacts ul {padding: 0 0 0 6%; list-style-type: square;}
 
 /* End */
